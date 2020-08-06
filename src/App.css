@@ -1,0 +1,33 @@
+.App-logo {
+  height: 150px;
+  pointer-events: none;
+}
+
+.App-header {
+  height: 100%;
+  display: flex;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.github_search_input {
+  display: block;
+  width: 100%;
+  font-size: 20px;
+  padding: 1rem 0.5rem;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  outline: none;
+}
+
+.github_search_input:focus {
+  border-bottom: 1px solid #111;
+}
+
+.repo_list {
+  list-style: none;
+  margin: 0;
+  padding: 1rem;
+}
+
+.lefMrg{padding-left: 50px !important;}
